@@ -111,6 +111,7 @@ Send a test email to the [port25 verifier][port25 verifier].  In response, the v
   * RedHat users: patches welcome
   * Even if you're running an unsupported distribution, you can still use generate\_config, print\_dns, check\_dns and send\_test\_email
 * The opendkim package for Ubuntu is in the "universe" repository
+* I recommend the awesome [DKIM Record Validator & Generator] tool from GradeMyEmail.com
   * If email:install\_packages fails, you may need to manually uncomment the universe repos in /etc/apt/sources.list
 * Postfixer assumes you're using Postfix as your [MTA][Message transfer agent]
   * If you're using another MTA (such as [Exim][Exim] or [Sendmail][Sendmail]), the same concepts apply, but you'll ned to work out the configuration details
